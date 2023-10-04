@@ -1,0 +1,290 @@
+* {
+    font-family: 'Outfit', sans-serif;
+
+
+}
+
+body {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    height: 600px;
+    width: 1200px;
+    align-items: center;
+    position: relative;
+
+
+}
+
+.bloco1 {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.daniel {
+    display: flex;
+    background: hsl(263, 55%, 52%);
+    height: 48%;
+    width: 500px;
+    border-radius: 2%;
+    position: absolute;
+    left: 10px;
+}
+
+
+
+.conteudo-daniel {
+    display: inline-block;
+    margin: 10px;
+    width: 100%;
+
+}
+
+.daniel img {
+    border-radius: 50%;
+    height: 30px;
+    margin: 10px;
+    float: left;
+
+}
+
+.daniel h4 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 13px;
+    color: white;
+}
+
+.daniel p {
+    margin-top: 0;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.daniel h2 {
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    margin: 0px 10px 10px 10px;
+}
+
+#text-daniel {
+    font-size: 12px;
+    margin: 10px;
+}
+
+
+
+.jonathan {
+    background: hsl(217, 19%, 35%);
+    height: 48%;
+    width: 300px;
+    border-radius: 2%;
+    position: absolute;
+    right: 360px;
+
+}
+
+.conteudo-jonathan {
+    display: inline-block;
+    margin: 10px;
+    width: 100%;
+}
+
+.jonathan img {
+    border-radius: 50%;
+    height: 30px;
+    margin: 10px;
+    float: left;
+}
+
+.jonathan h4 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 13px;
+    color: white;
+}
+
+.jonathan p {
+    margin-top: 0;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.jonathan h2 {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    margin: 0px 10px 10px 10px;
+}
+
+#text-jonathan {
+    font-size: 13px;
+    margin: 10px 25px 10px 10px;
+}
+
+.jeanette {
+    background: white;
+    height: 48%;
+    width: 300px;
+    border-radius: 2%;
+    box-shadow: 1px 1px 15px rgba(128, 128, 128, 0.532);
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+
+
+}
+
+.conteudo-jeanette {
+    display: inline-block;
+    margin: 10px;
+    width: 100%;
+}
+
+.jeanette img {
+    border-radius: 50%;
+    height: 30px;
+    margin: 10px;
+    float: left;
+}
+
+.jeanette h4 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 13px;
+    color: hsl(217, 19%, 35%);
+
+}
+
+.jeanette p {
+    margin-top: 0;
+    font-size: 10px;
+    color: rgba(128, 128, 128, 0.845);
+}
+
+.jeanette h2 {
+    color: hsl(217, 19%, 35%);
+    text-align: left;
+    font-size: 20px;
+    margin: 0px 10px 20px 10px;
+}
+
+#text-jeanette {
+    font-size: 16px;
+    margin: 10px 25px 10px 10px;
+    color: rgba(128, 128, 128, 0.664);
+}
+
+.patrick {
+    background-color: hsl(219, 29%, 14%);
+    height: 48%;
+    width: 500px;
+    border-radius: 2%;
+    position: absolute;
+    bottom: 0;
+    right: 360px;
+
+
+}
+
+.conteudo-patrick {
+    display: inline-block;
+    margin: 10px;
+    width: 100%;
+}
+
+.patrick img {
+    border-radius: 50%;
+    height: 30px;
+    margin: 10px;
+    float: left;
+}
+
+.patrick h4 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 13px;
+    color: white;
+}
+
+.patrick p {
+    margin-top: 0;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.patrick h2 {
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    margin: 0px 10px 25px 10px;
+}
+
+#text-patrick {
+    font-size: 11px;
+    margin: 10px 25px 10px 10px;
+}
+
+
+
+
+.kira {
+    height: 600px;
+    width: 300px;
+    background: white;
+    border-radius: 2%;
+    box-shadow: 1px 1px 15px rgba(128, 128, 128, 0.7);
+    position: absolute;
+    right: 30px;
+
+
+}
+
+.conteudo-kira {
+    display: inline-block;
+    margin: 10px;
+    width: 100%;
+}
+
+.kira img {
+    border-radius: 50%;
+    height: 30px;
+    margin: 10px;
+    float: left;
+}
+
+.kira h4 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 13px;
+    color: hsl(217, 19%, 35%);
+}
+
+.kira p {
+    margin-top: 0;
+    font-size: 10px;
+    color: rgba(128, 128, 128, 0.845);
+}
+
+.kira h2 {
+    color: hsl(217, 19%, 35%);
+    text-align: left;
+    font-size: 22px;
+    margin: 0px 10px 25px 10px;
+}
+
+#text-kira {
+    font-size: 14px;
+    margin: 10px 25px 10px 10px;
+    color: rgba(128, 128, 128, 0.664);
+}
